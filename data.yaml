@@ -1,5 +1,5 @@
-train: /kaggle/input/vehicle-detection-dataset/train/images
-val: /kaggle/input/vehicle-detection-dataset/val/images
+train: /kaggle/input/vehicle-detection/train/images
+val: /kaggle/input/vehicle-detection/val/images
 
 nc: 15
 names:
