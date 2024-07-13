@@ -102,14 +102,14 @@ The objective of the optimization was to maximize the mean Average Precision (mA
 To set up the project environment:
 
 1. Clone this repository:
-
+```
 git clone https://github.com/your-username/vehicle-detection-yolov8.git
 cd vehicle-detection-yolov8
-
+```
 2. Install the required packages:
-
+```
 pip install ultralytics optuna pyyaml
-
+```
 ## Usage
 
 To train the model and reproduce the results:
@@ -117,17 +117,17 @@ To train the model and reproduce the results:
 1. Prepare your dataset in the YOLO format and update the `data_path` in the script.
 
 2. Run the optimization script:
-
+```
 python train_optimize.py
-
+```
 3. After optimization, train the model with the best hyperparameters:
-
+```
 python train_best.py
-
+```
 4. For inference on new images:
-
+```
 python inference.py --input path/to/image --weights path/to/best_weights.pt
-
+```
 ## Future Work
 
 1. Implement advanced data augmentation techniques to enhance model robustness to weather variations.
