@@ -14,7 +14,6 @@ This project addresses the challenge of vehicle detection across various weather
 6. [Usage](#usage)
 7. [Future Work](#future-work)
 8. [Contributing](#contributing)
-9. [License](#license)
 
 ## Introduction
 
